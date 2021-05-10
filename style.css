@@ -79,25 +79,24 @@ img {
 
 /* Media query */
 
- /* #lezioni */
+ /* BLOCCO LEZIONI */
 
 @media screen and (max-width: 420px) 
 {
   #lezioni
   {
     background-color: #f2f2cd;
-    display: flex;
   }
 
   #lezioni .row .left, #lezioni .row .right
   {
     float: none;
-    font-size: 12px;
+    width: 100%;
   }
 
   #lezioni .row
   {
     margin: 0;
+    width: 100%;
   }
-
 }
