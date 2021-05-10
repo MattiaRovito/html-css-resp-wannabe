@@ -71,3 +71,33 @@ img {
 .clear {
   clear: both;
 }
+
+
+
+
+
+
+/* Media query */
+
+ /* #lezioni */
+
+@media screen and (max-width: 420px) 
+{
+  #lezioni
+  {
+    background-color: #f2f2cd;
+    display: flex;
+  }
+
+  #lezioni .row .left, #lezioni .row .right
+  {
+    float: none;
+    font-size: 12px;
+  }
+
+  #lezioni .row
+  {
+    margin: 0;
+  }
+
+}
