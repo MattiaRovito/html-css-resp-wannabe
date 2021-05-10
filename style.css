@@ -100,3 +100,40 @@ img {
     width: 100%;
   }
 }
+
+
+/* BLOCCO STEPS */
+@media screen and (max-width: 420px) 
+{
+  #steps
+  {
+    background-color: #fff;
+  }
+
+  #steps .row .left, #steps .row .central, #steps .row .right
+  {
+    float: none;
+    width: 100%;
+  }
+
+  #steps .row
+  {
+    margin: 0;
+    width: 100%;
+  }
+
+}
+
+
+
+
+/* #steps .row>.left,
+#steps .row>.central,
+#steps .row>.right {
+  float: left;
+  width: 33%;
+}
+
+#steps {
+  text-align: center;
+} */
